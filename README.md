@@ -41,6 +41,20 @@ your-repo-name/
 └── app.py        # Main application file
 ```
 
+## Code Overview
+
+```python
+import streamlit as st
+st.title("Hello, SKKU! 🎓")
+st.write("My first web app")
+```
+
+| Line | Description |
+|------|-------------|
+| `import streamlit as st` | Imports the Streamlit library and aliases it as `st` |
+| `st.title(...)` | Renders a large heading at the top of the page |
+| `st.write(...)` | Displays a text message below the title |
+
 ## Built With
 
 - [Streamlit](https://streamlit.io) — Python library for building web apps
